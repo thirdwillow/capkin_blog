@@ -3,7 +3,7 @@ module.exports = {
     "title": "capkin博客",
     "description": "capkin的博客",
     "dest": "public",
-    "base": "/",
+    "base": "/capkin_blog/",
     "head": [
         [
             "link",
