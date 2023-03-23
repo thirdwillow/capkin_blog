@@ -8,11 +8,14 @@ const STRUCTURE_PATH = '/blogs/数据结构'
 const AL_PATH = '/blogs/算法'
 const PROBLEM_PATH = '/blogs/每日刷题'
 const OTHER_PATH = '/blogs/一些问题'
+    // const WEB_PATH = '/blogs/Java/BIONIOAIO'
 
 
 module.exports = {
     [GO_PATH]: [createSideBarConfig('golang', GO_PATH)],
-    [JAVA_PATH]: [createSideBarConfig('Java', JAVA_PATH)],
+    [JAVA_PATH]: [createSideBarConfig('Java', JAVA_PATH + '/base'),
+        createSideBarConfig('Java-INT', JAVA_PATH + '/INT')
+    ],
     [SYSTEM_PATH]: [createSideBarConfig('操作系统', SYSTEM_PATH)],
     [INTERNET_PATH]: [createSideBarConfig('计算机网络', INTERNET_PATH)],
     [COMPUTER_PATH]: [createSideBarConfig('计算机组成', COMPUTER_PATH)],
@@ -20,4 +23,5 @@ module.exports = {
     [AL_PATH]: [createSideBarConfig('算法', AL_PATH)],
     [PROBLEM_PATH]: [createSideBarConfig('每日刷题', PROBLEM_PATH)],
     [OTHER_PATH]: [createSideBarConfig('遇到的问题', OTHER_PATH)],
+    // [WEB_PATH]: [createSideBarConfig('JAVA_WEB', WEB_PATH)],
 }

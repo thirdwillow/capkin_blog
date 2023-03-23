@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: capkin的博客
-tagline: 写点儿东西,记得自己的新的，capkin的博客
+tagline: 写点儿东西，记录自己的心得，capkin的博客
 bgImageStyle: {
   height: '450px'
 }
